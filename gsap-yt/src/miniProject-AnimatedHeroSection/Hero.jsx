@@ -35,7 +35,7 @@ const Hero = ({ revealHero }) => {
           opacity: 1,
           duration: 0.5,
           ease: "power3.out",
-        }, "<"
+        }, "-=0.2"
       )
       .to(
         subHeadingRef.current,
@@ -45,7 +45,7 @@ const Hero = ({ revealHero }) => {
           duration: 0.7,
           ease: "power3.out",
         },
-        "-=0.3",
+        "-=0.32",
       );
 
     return () => {
