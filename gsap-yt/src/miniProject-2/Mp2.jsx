@@ -20,8 +20,9 @@ const Mp2 = () => {
 
         scrollTrigger: {
           trigger: sectionRef.current,
-          start: "top 60%",
-          end: "top top",
+          start: "top top",
+          end: "bottom top",
+          pin:true,
           scrub: 1,
         },
       });
