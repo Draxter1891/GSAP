@@ -27,7 +27,7 @@ const Q3 = () => {
   ));
 
   return (
-    <div className="w-screen h-screen bg-gray-900 parent">
+    <div className="w-full h-screen bg-gray-900 parent">
         <div className="w-1/2 h-2/3 grid grid-cols-4 gap-1 child">{boxes}</div>
     </div>
   );
